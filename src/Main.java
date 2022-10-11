@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        long[] array = {1, 2, 21, 11, 32, 45};
+        long[] array = {5, 5, 10, 10, 15, 20, 20};
         SalesManager salesManager = new SalesManager(array);
         System.out.println(salesManager.averageValue());
     }
